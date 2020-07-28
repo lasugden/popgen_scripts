@@ -6,7 +6,7 @@ from popgen_utils.haplotype_simulation import process_slim_output
 #              model_name='gravel_neutral_100kb',type='neutral')
 
 process_slim_output.slim_out_to_selscan(project_name='sweep_hmm',
-             model_name='gravel_sweep_400kb_uniform_scoeff',type='sweep')
+             model_name='gravel_sweep_400kb_uniform_scoeff',type='sweep',sim_length=400000)
 
 process_slim_output.slim_out_to_selscan(project_name='sweep_hmm',
-             model_name='gravel_neutral_400kb',type='neutral')
+             model_name='gravel_neutral_400kb',type='neutral',sim_length=400000)
